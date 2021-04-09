@@ -865,8 +865,8 @@ h6 {
   display: inline-block;
   position: absolute;
   width: max-content;
-  -webkit-transform: translateZ(-1000px);
-          transform: translateZ(-1000px);
+  -webkit-transform: translateZ(1000px);
+          transform: translateZ(1000px);
 }
 .ani-lg-logo .logo-part-1 {
   top: 0;

@@ -220,7 +220,7 @@
   display: inline-block;
   position: absolute;
   width: max-content;
-  transform: translateZ(-1000px);
+  transform: translateZ(1000px);
 }
 .photo-carusel-wrapper .left .ani-lg-logo .logo-part-1 {
   top: 0;

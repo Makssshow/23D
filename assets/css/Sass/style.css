@@ -513,8 +513,8 @@ h6 {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  -webkit-transform: translateZ(-1000px);
-          transform: translateZ(-1000px);
+  -webkit-transform: translateZ(1000px);
+          transform: translateZ(1000px);
 }
 
 .photo-carusel-wrapper .left .ani-lg-logo .logo-part-1 {
