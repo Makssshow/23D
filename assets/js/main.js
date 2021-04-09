@@ -103,9 +103,9 @@ $(document).ready(function () {
     // LOGO Animation
 
     $('.ani-lg-logo').each(function(){
-        gsap.set('.ani-lg-logo .logo-part-2', {rotationX: -180})  
-        gsap.set('.ani-lg-logo .logo-part-4', {rotationX: 180}) 
-        var LogoTl = TweenMax.to('.ani-lg-logo span', 1, {rotationX: 0, ease: Linear.easeNone}) 
+        gsap.set('.ani-lg-logo .logo-part-2 img', {rotationX: -180})  
+        gsap.set('.ani-lg-logo .logo-part-4 img', {rotationX: 180}) 
+        var LogoTl = TweenMax.to('.ani-lg-logo span img', 1, {rotationX: 0, ease: Linear.easeNone}) 
         new ScrollMagic.Scene({
             triggerElement : this,  
             triggerHook:1,

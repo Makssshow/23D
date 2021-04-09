@@ -92,13 +92,13 @@ $(document).ready(function () {
   }); // LOGO Animation
 
   $('.ani-lg-logo').each(function () {
-    gsap.set('.ani-lg-logo .logo-part-2', {
+    gsap.set('.ani-lg-logo .logo-part-2 img', {
       rotationX: -180
     });
-    gsap.set('.ani-lg-logo .logo-part-4', {
+    gsap.set('.ani-lg-logo .logo-part-4 img', {
       rotationX: 180
     });
-    var LogoTl = TweenMax.to('.ani-lg-logo span', 1, {
+    var LogoTl = TweenMax.to('.ani-lg-logo span img', 1, {
       rotationX: 0,
       ease: Linear.easeNone
     });
