@@ -242,5 +242,5 @@ $(document).ready(function () {
     triggerElement: ".trigger-get",
     triggerHook: .3,
     duration: "100%"
-  }).setPin(".contact-section .section-get-right .right-ani-arrowdown-wrap").setTween(arrowRight).addIndicators().addTo(ctrl);
+  }).setPin(".contact-section .section-get-right .right-ani-arrowdown-wrap").setTween(arrowRight).addTo(ctrl);
 });

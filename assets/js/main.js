@@ -220,7 +220,6 @@ $(document).ready(function () {
     })
     .setPin(".contact-section .section-get-right .right-ani-arrowdown-wrap")
     .setTween(arrowRight)
-    .addIndicators()
     .addTo(ctrl);
 
 
