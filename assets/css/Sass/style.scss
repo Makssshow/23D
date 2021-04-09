@@ -3,6 +3,7 @@
 @import 'inc/typography';
 @import 'inc/color';
 @import 'inc/spacing';
+@import 'inc/sec-bg';
 @import 'inc/header';
 @import 'inc/hero';
 @import 'inc/slide';
@@ -10,7 +11,6 @@
 @import 'inc/css-icon';
 @import 'inc/btn';
 @import 'inc/global';
-@import 'inc/sec-bg';
 @import 'inc/card';
 @import 'inc/footer';
 
@@ -115,7 +115,7 @@
 
     .ani-lg-logo {
         max-width: 80%;
-
+ 
         .logo-part-1 {
             width: 15%;
         }
@@ -542,6 +542,7 @@
         .row {
             justify-content: center;
         }
+
         p {
             width: 100%;
         }
@@ -567,14 +568,16 @@
         .footer-text {
             width: 50%;
         }
+
         .footer-links {
             margin-top: 48px;
+
             a {
 
                 font-size: 14px;
             }
         }
- 
+
         a {
             color: #fff;
             text-decoration: none;

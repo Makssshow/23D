@@ -220,10 +220,6 @@
   display: inline-block;
   position: absolute;
   width: max-content;
-}
-.photo-carusel-wrapper .left .ani-lg-logo .logo-part-1,
-.photo-carusel-wrapper .left .ani-lg-logo .logo-part-2,
-.photo-carusel-wrapper .left .ani-lg-logo .logo-part-4 {
   transform: translateZ(-1000px);
 }
 .photo-carusel-wrapper .left .ani-lg-logo .logo-part-1 {
