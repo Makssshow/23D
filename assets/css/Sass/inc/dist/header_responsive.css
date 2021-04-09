@@ -1,0 +1,13 @@
+@media only screen and (max-width: 991.98px) {
+  .navbar-wrapper {
+    display: none;
+  }
+
+  .nav-right-wrap {
+    font-size: 12px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}

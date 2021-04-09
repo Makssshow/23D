@@ -1,0 +1,47 @@
+.contact-form-wrapper {
+  background-color: #fff;
+  padding-top: 30px;
+  padding-right: 40px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+.contact-form-wrapper .text-info {
+  color: #000000 !important;
+}
+
+.contact-section .sec-bg-wrapper {
+  min-height: 100vh;
+}
+
+.footer-area {
+  background-color: #323232;
+  padding-top: 240px;
+  padding-bottom: 150px;
+  position: relative;
+  z-index: 5;
+  overflow: hidden;
+}
+.footer-area p {
+  color: #fff;
+}
+.footer-area .bg-logo {
+  position: absolute;
+  top: -30%;
+  width: 70%;
+  left: -15%;
+  opacity: 0.05;
+  position: absolute;
+  z-index: -2;
+}
+.footer-area .bg-logo img {
+  width: 100%;
+}
+.footer-area a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.intro-text {
+  font-size: 20px;
+  line-height: 30px;
+}
