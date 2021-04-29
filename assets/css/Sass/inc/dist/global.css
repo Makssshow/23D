@@ -1,0 +1,31 @@
+.photo-gallery-wrap {
+  position: relative;
+  display: inline-block;
+  z-index: 5;
+  margin-top: 200px;
+  margin-bottom: 70px;
+}
+.photo-gallery-wrap .img-gallery {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: max-content;
+}
+.photo-gallery-wrap .img-g-1 {
+  position: relative;
+}
+.photo-gallery-wrap .img-g-2 {
+  top: auto;
+  bottom: calc(100% + 15px);
+  left: 30px;
+}
+.photo-gallery-wrap .img-g-3 {
+  left: calc(100% - 10px);
+  top: -70%;
+  z-index: 1;
+}
+.photo-gallery-wrap .img-g-4 {
+  left: 80%;
+  top: 50%;
+  z-index: 1;
+}

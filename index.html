@@ -23,7 +23,7 @@
 <body>
   <!-- HEADER AREA -->
   <header class="header-area">
-    <div class="container-fluid">
+    <div class="container">
       <nav class="navbar">
         <a href="#" class="brand nav-stagger"><img src="assets/img/logo.png" alt="logo"></a>
         <div class="navbar-wrapper">
@@ -50,11 +50,11 @@
   <main class="main-root">
     <!-- HERO AREA -->
     <section class="hero-area d-flex align-items-center">
-      <div class="hero-bg" style="background-image: url('assets/img/banner.jpg');"></div>
-      <div class="container-fluid">
-        <h2 class="hero-title-wrap text-white display-text-1 has-word">SUPER<br>CHARGED<br>STORY<br>TELLING</h2>
-      </div>
-      <a href="#more" class="scroll-down-btn">MORE <span class="arrow-down-line"></span></a>
+        <div class="hero-bg" style="background-image: url('assets/img/banner.jpg');"></div>
+        <div class="container">
+          <h2 class="hero-title-wrap text-white display-text-1 has-word">SUPER<br>CHARGED<br>STORY<br>TELLING</h2>
+        </div>
+        <a href="#more" class="scroll-down-btn">MORE <span class="arrow-down-line"></span></a>
     </section>
     <section class="pt-60 pb-60 bg-red" id="more">
       <div class="container">
@@ -122,7 +122,7 @@
         </div>
       </div>
       <div class="bg-red">
-        <div class="container-xl-fluid">
+        <div class="container">
           <div class="row">
             <div class="col-lg-6">
               <div class="section-title pt-60 pb-120">
@@ -154,7 +154,7 @@
       </div>
     </section>
     <section class="section-wrap pt-120 pb-120">
-      <div class="container-xl-fluid">
+      <div class="container">
         <div class="row justify-content-end">
           <div class="col-lg-6 photo-carusel-wrapper">
             <div class="left-ani-arrowdown-wrap">
@@ -189,7 +189,7 @@
             </div>
           </div>
           <div
-            class="text-content team-second-wrapper order-3 mt-200 col-lg-5 align-self-end pb-60 pt-5">
+            class="col-lg-5 text-content team-second-wrapper order-3 align-self-end pb-60 pt-5">
             <p class="layer-top bg-white">Together, we love finding extraordinary ways to make brands’ stories stand out – no matter how
               competitive the landscape! </p>
             <a href="#" class="btn-text wow fadeInUp layer-top bg-white">Find out more about the team <i
@@ -228,7 +228,7 @@
         </div>
       </div>
       <div class="ani-arrowdown-wrap arrow-long-wrap arrow-pos-left">
-        <span class="arrow-down-line"></span>
+        <div class="container"><span class="arrow-down-line"></span></div>
       </div>
     </section>
     <section class="pt-120 pb-120 has-right-bg-image">
@@ -358,8 +358,8 @@
       <div class="bg-images camera-wrap">
         <div class="camera"><img src="assets/img/camera.png" alt="camera"></div>
       </div>
-      <div class="arrow-down-get ani-arrowdown-wrap">
-        <span class="arrow-down-line dark-arrow"></span>
+      <div class="arrow-down-get ani-arrowdown-wrap arrow-long-wrap arrow-pos-left">
+        <div class="container"><span class="arrow-down-line dark-arrow"></span></div>
       </div>
     </section>
     <section class="contact-section section-wrapper" id="contact">
@@ -445,8 +445,8 @@
   <script>
     $(document).ready(function () {
       $('#jqueryHeight').css("height", $("#jqueryHeight").height() + $("#pin-text").height());
+      $('.abc').css("height", $("#pin-text").height());
       $('#jqueryHeight').css("width", $("#pin-text").width());
-      $('.abc').css("height", jQuery("#pin-text").height());
     });
 
     //mobile nav burger

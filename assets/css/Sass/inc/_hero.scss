@@ -1,14 +1,19 @@
 /*-----------------------------------------
 ---------------HERO CSS---------------
 ------------------------------------------*/
-.hero-area{
+.hero-area {
     position: relative;
     z-index: 2;
     min-height: calc(100vh);
     padding-top: 88px;
-    padding-bottom: 10px; 
+    padding-bottom: 10px;
     overflow: hidden;
-    .hero-bg{
+
+    .container {
+        max-width: 1920px;
+    }
+
+    .hero-bg {
         position: absolute;
         left: 0;
         top: 0;
@@ -19,15 +24,17 @@
         background-position: center;
         background-repeat: no-repeat;
     }
-    .hero-title-wrap{
+
+    .hero-title-wrap {
         width: 700px;
-        margin-left: 50px; 
-        margin-bottom: 0; 
+        margin-left: 50px;
+        margin-bottom: 0;
     }
-    .scroll-down-btn{
+
+    .scroll-down-btn {
         position: absolute;
-        bottom:20px;
+        bottom: 20px;
         left: 50%;
-        @include transform(translateX(-50%)); 
+        @include transform(translateX(-50%));
     }
 }

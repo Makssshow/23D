@@ -6,6 +6,9 @@
   width: 100%;
   z-index: 999;
 }
+.header-area .container {
+  max-width: 1920px;
+}
 .header-area .brand {
   display: block;
 }

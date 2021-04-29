@@ -3,6 +3,12 @@
 $(document).ready(function () {
   // Wow Js Init
   new WOW().init();
+  var HasWord = $('.has-word');
+  Splitting({
+    target: HasWord,
+    by: 'lines'
+  });
+  $('.has-word .word').wrap('<span class="ex-wrap">');
   gsap.set('.hero-title-wrap .word', {
     yPercent: 150,
     skewY: 8
@@ -227,7 +233,7 @@ $(document).ready(function () {
   new ScrollMagic.Scene({
     triggerElement: ".contact-section",
     triggerHook: 0,
-    duration: "300%"
+    duration: "350%"
   }).setPin(".contact-section .sec-bg").addTo(ctrl);
   new ScrollMagic.Scene({
     triggerElement: ".trigger-get",
